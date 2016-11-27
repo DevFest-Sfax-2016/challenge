@@ -1,0 +1,35 @@
+#outerbox
+{
+  margin-left:385px;
+  position: absolute;
+  top:180px;
+  width:700px;
+  overflow: hidden;
+
+}
+#sliderbox
+{
+  position:relative;
+  width:2800px;
+  animation-name: jatinder;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+#sliderbox img
+{
+  float: left;
+}
+@keyframes jatinder
+{
+0%
+{
+left: 0px;
+}
+20%
+{
+  left: 0px;
+}
+25%
+{
+  left: -700px;
+}
